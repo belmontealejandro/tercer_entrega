@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $bg_blanco;
+}
+.boton{
+    margin: 30px;
+    padding: 10px;
+}
+.boton{
+    a {
+    text-decoration: none;
+    color: black;
+    background-color: orangered;
+    border-radius: 5%;
+    font-weight: bold;
+    padding: 20px;
+    margin: 20px;
+}
+}
+.boton{
+    a:hover {
+    color: orange;
+    background-color: orangered;
+    border-radius: 5%;
+    font-weight: bold;
+    border: solid 2px black;
+}
+}
+.resena {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px auto;
+    padding: 10px;
+}
+.resena{
+    parrafo1 {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: auto;
+}
+}
+.resena{
+    parrafo2 {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: auto;
+}
+}
+@mixin menuestilo ($bg,$color) {
+    background-color: $bg;
+    color: $color;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    width: 90%;
+}
+.menu8{
+    @include menuestilo($bg8,$color8)
+}
+.menu16{
+    @include menuestilo($bg16,$color16)
+}
+.menu32{
+    @include menuestilo($bg32,$color32)
+}
+.menu8{
+    a{
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: bold;
+    }
+}
+.menu16{
+    a{
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: bold;
+    }
+}
+.menu32{
+    a{
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: bold;
+    }
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    margin: 30px auto;
+    padding: 10px;
+    width: 600px;
+}

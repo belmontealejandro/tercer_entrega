@@ -1,0 +1,21 @@
+footer {
+    background-color: $bg_oscuro;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    color: orange;
+    grid-area: footer;
+    align-self: center;
+    & a {
+        text-decoration: none;
+        color: white;
+    }
+    h4 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 0.8rem;
+        color: orange;
+    }
+}

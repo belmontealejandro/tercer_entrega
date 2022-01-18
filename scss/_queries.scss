@@ -1,0 +1,13 @@
+@media screen and (max-width: 768px) {
+    main h2 {
+        color: rgb(85, 201, 50);
+        font-family: 'Gloria Hallelujah', cursive;
+        font-size: 1.5rem;
+    }
+    .row {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}
